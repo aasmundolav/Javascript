@@ -1,0 +1,8 @@
+
+
+
+list = document.getElementsByClassName("esriContentItemTitle")
+dojo.forEach(list, function(z){console.log(z.href + "; " + z.innerHTML)})
+
+
+
