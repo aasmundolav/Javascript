@@ -2,11 +2,18 @@
 <html>
 <head>
 <title>My Title</title>
+<script type="text/javascript" src="urlparameter.js"></script>
 </head>
 <body>
 
-<!-- This is an HTML comment -->
 
+<p id="demo">Click me to change my HTML content (innerHTML).</p>
+
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Paragraph changed!";
+    console.log(urlParams);
+}
+</script>
 </body>
 </html>
-Related Link: ex
